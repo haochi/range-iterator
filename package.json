@@ -1,8 +1,25 @@
 {
+  "name": "range",
+  "version": "0.1",
+  "description": "Iterable range",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haochi/range"
+  },
+  "keywords": [
+    "range"
+  ],
+  "author": "Haochi Chen <haochi.chen@gmail.com>",
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "dependencies": {},
   "devDependencies": {
     "mocha": "*"
   },
-  "main": "lib/string",
+  "main": "lib/range",
   "scripts": {
     "test": "mocha test"
   }
