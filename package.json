@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "main": "lib/string",
+  "scripts": {
+    "test": "mocha test"
+  }
+}
