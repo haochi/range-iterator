@@ -1,6 +1,6 @@
 {
-  "name": "range",
-  "version": "0.1",
+  "name": "range-iterator",
+  "version": "0.0.1",
   "description": "Range iterator that behaves like an Array",
   "repository": {
     "type": "git",
