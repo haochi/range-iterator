@@ -1,13 +1,15 @@
 {
   "name": "range",
   "version": "0.1",
-  "description": "Iterable range",
+  "description": "Range iterator that behaves like an Array",
   "repository": {
     "type": "git",
-    "url": "https://github.com/haochi/range"
+    "url": "https://github.com/haochi/range-iterator"
   },
   "keywords": [
-    "range"
+    "range",
+    "iterator",
+    "generator"
   ],
   "author": "Haochi Chen <haochi.chen@gmail.com>",
   "licenses": [
