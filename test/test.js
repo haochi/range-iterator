@@ -1,4 +1,5 @@
-var Range = require('../lib/range').Range;
+var rangeLib = require('../lib/range');
+var Range = rangeLib.Range;
 
 var assert = require("assert")
 describe('Range', function(){
@@ -102,6 +103,18 @@ describe('Range', function(){
       assert.equal(true, range.some(function(i){
         return i % 2 === 0;
       }));
+    })
+  })
+
+  describe('Range(100, 1, -2)#get without new', function(){
+    it('should be 100', function(){
+      assert.equal(100, (Range(100, 1, -2)).get(0));
+    })
+  })
+
+  describe('range(100, 1, -2)#get', function(){
+    it('should be 100', function(){
+      assert.equal(100, rangeLib.range.call(null, 100, 1, -2).get(0));
     })
   })
 })

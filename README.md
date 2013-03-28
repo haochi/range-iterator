@@ -1,11 +1,18 @@
 Range iterator that behaves like an Array
 =========================================
+... but without having to hog up all the memory.
 
-Code Sample
------------
+Install
+-------
+
+`npm install range-iterator`
+
+Usage
+-----
 
     var Range = require('range-iterator').Range
       , iterator = new Range(12, 20, 3);
+    // or simply range(12, 20, 3) if `new` isn't your thing
 
     iterator.forEach(function(i){
       console.log(i);
